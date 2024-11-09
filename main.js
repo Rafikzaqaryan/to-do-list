@@ -27,4 +27,9 @@ function createDeleteElements(value) {
   btn.addEventListener("click", (e)=>{
     result.removeChild(li)
     i--
+})
+li.addEventListener("click", (e)=>{
+  li.classList.toggle("li-active")
+})
+result.appendChild(li)
 }
