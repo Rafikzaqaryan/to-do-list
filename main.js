@@ -10,3 +10,8 @@ btn.addEventListener("click", (e) =>{
   createDeleteElements(input.value)
   input.value = ""
 })
+
+
+function createDeleteElements(value) {
+
+}
