@@ -13,5 +13,15 @@ btn.addEventListener("click", (e) =>{
 
 
 function createDeleteElements(value) {
+   
+  const li = document.createElement("li")
+  li.className = "li"
+  li.textContent =value
 
+  const btn = document.createElement("button")
+  btn.className = "btn"
+  btn.textContent = "remove"
+
+
+  li.appendChild(btn)
 }
